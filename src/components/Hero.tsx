@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search, MapPin } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import heroImage from "@/assets/hero-truck.jpg";
 
 const Hero = () => {
@@ -22,78 +19,21 @@ const Hero = () => {
             Easily search and apply to CDL jobs with 3,000+ carriers across North America
           </p>
 
-          {/* Search Section */}
-          <div className="bg-background/95 backdrop-blur-sm rounded-xl p-6 shadow-2xl space-y-4">
-            <h2 className="text-foreground text-lg font-semibold text-left">Search Jobs</h2>
-            
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-                <Input 
-                  placeholder="Job title or keywords" 
-                  className="pl-10 h-12 bg-background"
-                />
-              </div>
-              <div className="relative">
-                <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-                <Input 
-                  placeholder="City, State or ZIP" 
-                  className="pl-10 h-12 bg-background"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-2">
-              <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
-                CDL A
-              </Badge>
-              <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
-                CDL B
-              </Badge>
-              <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
-                Local
-              </Badge>
-              <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
-                OTR
-              </Badge>
-              <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
-                Regional
-              </Badge>
-            </div>
-
-            <Button className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground h-12 px-8 text-lg font-semibold">
-              Show Jobs
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              onClick={() => window.location.href = '/jobs'}
+              className="bg-accent hover:bg-accent/90 text-accent-foreground h-14 px-10 text-lg font-semibold min-w-[200px]"
+            >
+              Browse All Jobs
             </Button>
-          </div>
-
-          {/* Popular Searches */}
-          <div className="text-left">
-            <p className="text-sm text-primary-foreground/70 mb-2">Popular Searches:</p>
-            <div className="flex flex-wrap gap-2">
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                Local Driver
-              </a>
-              <span className="text-primary-foreground/50">•</span>
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                CDL A Jobs
-              </a>
-              <span className="text-primary-foreground/50">•</span>
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                Entry Level
-              </a>
-              <span className="text-primary-foreground/50">•</span>
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                2+ Years Experience
-              </a>
-              <span className="text-primary-foreground/50">•</span>
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                Dry Van
-              </a>
-              <span className="text-primary-foreground/50">•</span>
-              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
-                Flatbed
-              </a>
-            </div>
+            <Button 
+              onClick={() => window.location.href = '/jobs'}
+              variant="outline"
+              className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary h-14 px-10 text-lg font-semibold min-w-[200px]"
+            >
+              Find CDL Jobs
+            </Button>
           </div>
         </div>
       </div>
