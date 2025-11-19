@@ -7,7 +7,11 @@ const TrustedBy = () => {
     "Prime Inc.",
     "Knight Transportation",
     "Crete Carrier",
-    "CRST International"
+    "CRST International",
+    "Hirschbach Motor Lines",
+    "Maverick Transportation",
+    "TMC Transportation",
+    "Roehl Transport"
   ];
 
   return (

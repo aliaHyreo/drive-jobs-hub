@@ -5,63 +5,63 @@ const JobListings = () => {
   const jobs = [
     {
       company: "Swift Transportation",
-      title: "Regional CDL-A Driver",
+      title: "CDL A OTR Driver - Dry Van",
       location: "Phoenix, AZ",
-      payRange: "$65,000 - $80,000/year",
-      routeType: "Regional",
+      payRange: "$0.55 - $0.65/mile",
+      routeType: "OTR",
       cdlType: "CDL-A",
-      schedule: "Home Weekly",
+      schedule: "14 days out, 3 days home",
       posted: "2 days ago"
     },
     {
       company: "Schneider National",
-      title: "Local Delivery Driver",
-      location: "Dallas, TX",
-      payRange: "$55,000 - $70,000/year",
+      title: "Local CDL A Driver - Home Daily",
+      location: "Green Bay, WI",
+      payRange: "$75,000 - $85,000/year",
       routeType: "Local",
-      cdlType: "CDL-B",
-      schedule: "Home Daily",
+      cdlType: "CDL-A",
+      schedule: "Home daily",
       posted: "1 day ago"
     },
     {
       company: "Werner Enterprises",
-      title: "OTR Truck Driver",
-      location: "Nationwide",
-      payRange: "$70,000 - $90,000/year",
-      routeType: "OTR",
+      title: "CDL A Regional Driver - Flatbed",
+      location: "Omaha, NE",
+      payRange: "$70,000 - $80,000/year",
+      routeType: "Regional",
       cdlType: "CDL-A",
-      schedule: "Out 3 weeks",
+      schedule: "5 days out, 2 days home",
       posted: "3 days ago"
     },
     {
       company: "J.B. Hunt Transport",
-      title: "Dedicated Account Driver",
-      location: "Atlanta, GA",
-      payRange: "$60,000 - $75,000/year",
-      routeType: "Dedicated",
+      title: "CDL A Intermodal Driver",
+      location: "Chicago, IL",
+      payRange: "$1,200 - $1,500/week",
+      routeType: "Local",
       cdlType: "CDL-A",
-      schedule: "Home Weekends",
-      posted: "1 week ago"
+      schedule: "Home daily",
+      posted: "1 day ago"
     },
     {
-      company: "Prime Inc.",
-      title: "Flatbed Driver - Experienced",
-      location: "Multiple Locations",
-      payRange: "$75,000 - $95,000/year",
+      company: "Crete Carrier",
+      title: "CDL A Refrigerated Driver",
+      location: "Lincoln, NE",
+      payRange: "$0.58 - $0.68/mile",
       routeType: "OTR",
       cdlType: "CDL-A",
-      schedule: "Out 2-3 weeks",
+      schedule: "18-21 days out",
       posted: "4 days ago"
     },
     {
       company: "Knight Transportation",
-      title: "Regional Reefer Driver",
-      location: "Chicago, IL",
-      payRange: "$62,000 - $78,000/year",
-      routeType: "Regional",
-      cdlType: "CDL-A",
-      schedule: "Home Weekly",
-      posted: "5 days ago"
+      title: "CDL B Local Delivery Driver",
+      location: "Toronto, ON",
+      payRange: "$60,000 - $70,000/year",
+      routeType: "Local",
+      cdlType: "CDL-B",
+      schedule: "Home daily",
+      posted: "2 days ago"
     }
   ];
 

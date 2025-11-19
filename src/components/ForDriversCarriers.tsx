@@ -19,27 +19,27 @@ const ForDriversCarriers = () => {
                   Have Your CDL?
                 </h3>
                 <p className="text-muted-foreground">
-                  Start your career with top carriers today. Browse thousands of jobs and find the perfect match for your lifestyle.
+                  Access 100,000+ jobs annually with 3,000+ carriers. One profile, multiple applications.
                 </p>
               </div>
 
               <ul className="space-y-2 text-left text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-accent rounded-full" />
-                  Quick and easy application process
+                  Local, Regional, and OTR positions
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-accent rounded-full" />
-                  Connect with top carriers nationwide
+                  Filter by Dry Van, Flatbed, Reefer, Tanker
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-accent rounded-full" />
-                  Get matched with jobs that fit your needs
+                  Track applications in one place
                 </li>
               </ul>
 
               <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground group">
-                Find Driver Jobs
+                Start Job Search
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </CardContent>
@@ -54,30 +54,30 @@ const ForDriversCarriers = () => {
               
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
-                  Need Qualified Drivers?
+                  For Carriers & Fleets
                 </h3>
                 <p className="text-muted-foreground">
-                  Post your jobs and connect with thousands of qualified CDL drivers actively seeking opportunities.
+                  All-in-one platform with job board, ATS, and automated compliance checks.
                 </p>
               </div>
 
               <ul className="space-y-2 text-left text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full" />
-                  Reach thousands of qualified drivers
+                  Built-in applicant tracking system
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full" />
-                  Easy job posting and management tools
+                  Automated driver abstracts & CVOR checks
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full" />
-                  Streamlined hiring process
+                  TMS integration (Rose Rocket, Descartes)
                 </li>
               </ul>
 
               <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground group">
-                Post Free Jobs
+                Request Demo
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </CardContent>

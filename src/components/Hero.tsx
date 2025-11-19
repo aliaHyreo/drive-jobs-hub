@@ -19,7 +19,7 @@ const Hero = () => {
             Drive Your Career <span className="text-accent">Forward</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90">
-            Connect with top carriers. Find CDL jobs that match your lifestyle.
+            Easily search and apply to CDL jobs with 3,000+ carriers across North America
           </p>
 
           {/* Search Section */}
@@ -84,6 +84,14 @@ const Hero = () => {
               <span className="text-primary-foreground/50">•</span>
               <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
                 2+ Years Experience
+              </a>
+              <span className="text-primary-foreground/50">•</span>
+              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
+                Dry Van
+              </a>
+              <span className="text-primary-foreground/50">•</span>
+              <a href="#" className="text-sm text-primary-foreground underline hover:text-accent transition-colors">
+                Flatbed
               </a>
             </div>
           </div>

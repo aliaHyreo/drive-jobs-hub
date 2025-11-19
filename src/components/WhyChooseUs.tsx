@@ -4,23 +4,23 @@ const WhyChooseUs = () => {
   const features = [
     {
       icon: Shield,
-      title: "Trusted Platform",
-      description: "Connecting drivers and carriers for over 10 years with verified job listings"
+      title: "Verified & Compliant",
+      description: "Integrated driver abstracts and carrier safety checks (CVOR, ICBC, SAAQ) ensure secure, compliant hiring"
     },
     {
       icon: Users,
-      title: "Thousands of Jobs",
-      description: "Access to 100,000+ new job opportunities posted annually nationwide"
+      title: "100,000+ Jobs Annually",
+      description: "Access opportunities with 3,000+ carriers across North America - from local routes to OTR"
     },
     {
       icon: Zap,
-      title: "Quick Applications",
-      description: "Apply to multiple jobs in minutes with our streamlined application process"
+      title: "Streamlined Hiring",
+      description: "Combined job board and ATS platform - apply to multiple carriers in minutes, track applications in one place"
     },
     {
       icon: Award,
-      title: "Top Carriers",
-      description: "Partner with 3,000+ leading carriers offering competitive pay and benefits"
+      title: "Complete Solution",
+      description: "All-in-one platform with job search, recruiting software, and safety verification - no juggling multiple systems"
     }
   ];
 
@@ -29,10 +29,10 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Why Choose <span className="text-accent">TruckHire</span>?
+            The Complete <span className="text-accent">Hiring Platform</span>
           </h2>
           <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Professional truck drivers have trusted us to help them find great jobs that match their lifestyle and career goals
+            More than a job board - we combine job search, recruiting software, and integrated compliance checks for mid to large fleets
           </p>
         </div>
 

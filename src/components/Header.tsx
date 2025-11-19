@@ -13,13 +13,16 @@ const Header = () => {
           
           <nav className="hidden md:flex items-center gap-6">
             <a href="#jobs" className="text-foreground hover:text-accent transition-colors">
-              Find Jobs
+              Browse Jobs
             </a>
             <a href="#for-drivers" className="text-foreground hover:text-accent transition-colors">
               For Drivers
             </a>
             <a href="#for-carriers" className="text-foreground hover:text-accent transition-colors">
               For Carriers
+            </a>
+            <a href="#how-it-works" className="text-foreground hover:text-accent transition-colors">
+              How It Works
             </a>
           </nav>
 
