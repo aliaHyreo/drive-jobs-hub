@@ -70,10 +70,10 @@ const JobListings = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Featured <span className="text-accent">Job Opportunities</span>
+            Your Next Great <span className="text-accent">Trucking Career</span> Starts Here
           </h2>
           <p className="text-lg text-muted-foreground">
-            Browse thousands of CDL jobs from top carriers nationwide
+            Explore high-paying CDL opportunities with top carriers hiring now
           </p>
         </div>
 

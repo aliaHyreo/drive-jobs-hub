@@ -27,11 +27,8 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Button variant="ghost" className="hidden md:inline-flex">
-              Sign In
-            </Button>
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Post a Job
+              Carrier Login
             </Button>
           </div>
         </div>
