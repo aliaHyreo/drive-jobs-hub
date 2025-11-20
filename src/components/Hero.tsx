@@ -25,14 +25,14 @@ const Hero = () => {
               onClick={() => window.location.href = '/jobs'}
               className="bg-accent hover:bg-accent/90 text-accent-foreground h-14 px-10 text-lg font-semibold min-w-[200px]"
             >
-              Browse All Jobs
+              Browse CDL Jobs
             </Button>
             <Button 
-              onClick={() => window.location.href = '/jobs'}
+              onClick={() => window.location.href = '#jobs'}
               variant="outline"
               className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary h-14 px-10 text-lg font-semibold min-w-[200px]"
             >
-              Find CDL Jobs
+              How It Works
             </Button>
           </div>
         </div>
