@@ -85,7 +85,7 @@ const Apply = () => {
           <Button
             variant="ghost"
             onClick={() => navigate("/jobs")}
-            className="mb-4 text-foreground hover:text-accent"
+            className="mb-4 text-foreground hover:text-white"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Jobs
