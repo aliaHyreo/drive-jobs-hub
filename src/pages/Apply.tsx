@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -81,6 +82,15 @@ const Apply = () => {
       
       <main className="flex-1 py-12">
         <div className="container mx-auto px-4 max-w-3xl">
+          <Button
+            variant="ghost"
+            onClick={() => navigate("/jobs")}
+            className="mb-4 text-foreground hover:text-accent"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Jobs
+          </Button>
+          
           <div className="bg-muted/50 p-6 rounded-lg mb-8">
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
               Apply for CDL Driver Position
