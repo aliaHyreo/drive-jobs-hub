@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-truck.jpg";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground overflow-hidden">
       {/* Background Image Overlay */}
@@ -22,13 +24,16 @@ const Hero = () => {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              onClick={() => window.location.href = '/jobs'}
+              onClick={() => navigate('/jobs')}
               className="bg-accent hover:bg-accent/90 text-accent-foreground h-14 px-10 text-lg font-semibold min-w-[200px]"
             >
               Browse CDL Jobs
             </Button>
           <Button 
-            onClick={() => window.location.href = '#how-it-works'}
+            onClick={() => {
+              const section = document.getElementById('how-it-works');
+              section?.scrollIntoView({ behavior: 'smooth' });
+            }}
             variant="outline"
             className="border-2 border-primary-foreground text-black hover:bg-primary-foreground hover:text-primary h-14 px-10 text-lg font-semibold min-w-[200px]"
           >
