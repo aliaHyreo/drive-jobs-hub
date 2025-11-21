@@ -14,17 +14,17 @@ import roehlLogo from "@/assets/carriers/roehl.png";
 const TrustedBy = () => {
   const carriers = [
     { name: "Swift Transportation", logo: swiftLogo },
-    { name: "Schneider National", logo: schneiderLogo },
+    // { name: "Schneider National", logo: schneiderLogo },
     { name: "Werner Enterprises", logo: wernerLogo },
     { name: "J.B. Hunt", logo: jbhuntLogo },
-    { name: "Prime Inc.", logo: primeLogo },
+    // { name: "Prime Inc.", logo: primeLogo },
     { name: "Knight Transportation", logo: knightLogo },
     { name: "Crete Carrier", logo: creteLogo },
-    { name: "CRST International", logo: crstLogo },
-    { name: "Hirschbach Motor Lines", logo: hirschbachLogo },
+    // { name: "CRST International", logo: crstLogo },
+    // { name: "Hirschbach Motor Lines", logo: hirschbachLogo },
     { name: "Maverick Transportation", logo: maverickLogo },
     { name: "TMC Transportation", logo: tmcLogo },
-    { name: "Roehl Transport", logo: roehlLogo }
+    // { name: "Roehl Transport", logo: roehlLogo }
   ];
 
   return (
