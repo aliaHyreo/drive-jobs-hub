@@ -1,17 +1,30 @@
+import swiftLogo from "@/assets/carriers/swift.png";
+import schneiderLogo from "@/assets/carriers/schneider.png";
+import wernerLogo from "@/assets/carriers/werner.png";
+import jbhuntLogo from "@/assets/carriers/jbhunt.png";
+import primeLogo from "@/assets/carriers/prime.png";
+import knightLogo from "@/assets/carriers/knight.png";
+import creteLogo from "@/assets/carriers/crete.png";
+import crstLogo from "@/assets/carriers/crst.png";
+import hirschbachLogo from "@/assets/carriers/hirschbach.png";
+import maverickLogo from "@/assets/carriers/maverick.png";
+import tmcLogo from "@/assets/carriers/tmc.png";
+import roehlLogo from "@/assets/carriers/roehl.png";
+
 const TrustedBy = () => {
-  const companies = [
-    "Swift Transportation",
-    "Schneider National",
-    "Werner Enterprises",
-    "J.B. Hunt",
-    "Prime Inc.",
-    "Knight Transportation",
-    "Crete Carrier",
-    "CRST International",
-    "Hirschbach Motor Lines",
-    "Maverick Transportation",
-    "TMC Transportation",
-    "Roehl Transport"
+  const carriers = [
+    { name: "Swift Transportation", logo: swiftLogo },
+    { name: "Schneider National", logo: schneiderLogo },
+    { name: "Werner Enterprises", logo: wernerLogo },
+    { name: "J.B. Hunt", logo: jbhuntLogo },
+    { name: "Prime Inc.", logo: primeLogo },
+    { name: "Knight Transportation", logo: knightLogo },
+    { name: "Crete Carrier", logo: creteLogo },
+    { name: "CRST International", logo: crstLogo },
+    { name: "Hirschbach Motor Lines", logo: hirschbachLogo },
+    { name: "Maverick Transportation", logo: maverickLogo },
+    { name: "TMC Transportation", logo: tmcLogo },
+    { name: "Roehl Transport", logo: roehlLogo }
   ];
 
   return (
@@ -21,12 +34,16 @@ const TrustedBy = () => {
           Trusted by Leading Carriers Nationwide
         </h3>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-          {companies.map((company, index) => (
+          {carriers.map((carrier, index) => (
             <div
               key={index}
-              className="text-muted-foreground/60 font-semibold text-sm md:text-base hover:text-foreground transition-colors cursor-default"
+              className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
             >
-              {company}
+              <img 
+                src={carrier.logo} 
+                alt={`${carrier.name} logo`}
+                className="h-12 md:h-16 w-auto object-contain"
+              />
             </div>
           ))}
         </div>
