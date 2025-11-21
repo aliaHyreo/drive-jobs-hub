@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Truck className="h-8 w-8 text-accent" />
-            <span className="text-2xl font-bold text-primary">GoTruX</span>
+            <span className="text-2xl font-bold text-primary">Fleeto</span>
           </Link>
           
           <nav className="hidden md:flex items-center gap-6">
