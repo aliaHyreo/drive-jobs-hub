@@ -48,6 +48,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/60">
           <p>&copy; 2024 GoTruX. All rights reserved.</p>
+          <p className="mt-2">Powered by <span className="text-accent font-semibold">hyreo</span></p>
         </div>
       </div>
     </footer>
