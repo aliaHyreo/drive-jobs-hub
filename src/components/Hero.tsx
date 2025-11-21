@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Find Real CDL Jobs<br></br><span className="text-accent">No Spam. No Lies.<br></br>Just Honest Opportunities.</span>
+            Find Real CDL Jobs<br></br><span className="text-accent">No Spam. No Lies.</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90">
           3,000+ carriers. Verified pay and home time. You control who contacts you. Apply once, track everything, and get hired faster — with zero recruiter spam.
