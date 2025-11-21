@@ -1,8 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { UserCheck, Building2, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const ForDriversCarriers = () => {
+  const navigate = useNavigate();
   return (
     <section id="for-drivers" className="py-16 bg-background">
       <div className="container mx-auto px-4">
@@ -38,7 +40,10 @@ const ForDriversCarriers = () => {
                 </li>
               </ul>
 
-              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground group">
+              <Button 
+                onClick={() => navigate("/jobs")}
+                className="w-full bg-accent hover:bg-accent/90 text-accent-foreground group"
+              >
                 Start Job Search
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
